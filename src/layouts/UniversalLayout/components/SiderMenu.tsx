@@ -2,9 +2,6 @@ import { memo, useState, useMemo, useLayoutEffect } from 'react';
 import { Menu } from 'antd';
 import { unionWith } from 'lodash';
 
-import { useRecoilValue } from 'recoil';
-import locales from '../locales';
-
 import { hasPermissionRoles } from '@/utils/router';
 import { isExternal } from '@/utils/validate';
 import ALink from '@/components/ALink';

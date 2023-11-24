@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Card, Table } from 'antd';
 import { ColumnsType, TablePaginationConfig } from 'antd/lib/table';
 
-import { useRecoilValue } from 'recoil';
-import locales from '../../locales';
-
 import { TableListItem } from './data.d';
 
 import styles from '../../index.module.less';

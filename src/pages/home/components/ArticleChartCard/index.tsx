@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Spin, Card, Divider, Row, Col, Tag } from 'antd';
 
-import { useRecoilValue } from 'recoil';
-import locales from '../../locales';
-
 import IconSvg from '@/components/IconSvg';
 
 import styles from '../../index.module.less';

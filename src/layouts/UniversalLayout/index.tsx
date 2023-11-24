@@ -5,7 +5,6 @@ import classnames from 'classnames';
 import { useRecoilValue } from 'recoil';
 import { globalState } from '@/store/global';
 import { userState } from '@/store/user';
-import locales from './locales';
 
 import { formatRoutes, getBreadcrumbRoutes } from '@/utils/router';
 

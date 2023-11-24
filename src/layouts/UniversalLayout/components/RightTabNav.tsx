@@ -3,9 +3,8 @@ import { useLocation, useNavigate, Location } from 'react-router-dom';
 import classnames from 'classnames';
 import { Dropdown, Menu } from 'antd';
 
-import { useRecoilValue, useRecoilState } from 'recoil';
+import { useRecoilState } from 'recoil';
 import { globalState } from '@/store/global';
-import locales from '../locales';
 
 import settings from '@/config/settings';
 

@@ -2,9 +2,6 @@ import React, { useRef, useState, useMemo } from 'react';
 import { Spin, Card, Tag, Divider, Row, Col } from 'antd';
 import useEcharts, { EChartsOption } from '@/hooks/useEcharts';
 
-import { useRecoilValue } from 'recoil';
-import locales from '../../locales';
-
 import styles from '../../index.module.less';
 import { TopicsChartDataType } from './data';
 import { ResponseData } from '@/utils/request';
